@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateBlogPage = () => {
   return (
-    <div>
+    <div className='min-h-screen py-8 md:px-12'>
       <h2 className='text-2xl font-bold my-4 border-l-8 pl-2 py-1 border-gray-700'>Blog 新規作成</h2>
       <form action="">
         <div className='mb-4'>

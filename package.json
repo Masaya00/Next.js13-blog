@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch src/data/posts.json --port 3001"
   },
   "dependencies": {
     "@next/font": "13.5.3",
@@ -15,6 +16,7 @@
     "@types/react-dom": "18.2.8",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
+    "json-server": "^0.17.4",
     "next": "13.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
