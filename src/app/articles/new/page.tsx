@@ -19,6 +19,7 @@ const CreateBlogPage = () => {
     await createlArticle(id, title, content);
     setLoading(false)
     router.push("/")
+    router.refresh()
   }
 
   return (

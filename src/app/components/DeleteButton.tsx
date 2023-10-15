@@ -16,6 +16,7 @@ const DeleteButton = ({id}: DeleteButtonProps) => {
   const handleDelete = () => {
     deleteArticle(id)
     router.push("/")
+    router.refresh()
   }
 
   return (
