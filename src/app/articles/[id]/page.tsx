@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import { getDetailArticle } from '@/blogAPI'
+import { deleteArticle, getDetailArticle } from '@/blogAPI'
+import DeleteButton from '@/app/components/DeleteButton'
 
 
 const Article = async ({params}: {params: {id: string}}) => {
@@ -18,6 +19,9 @@ const Article = async ({params}: {params: {id: string}}) => {
         <h1 className='text-4xl text-center'>{detailArticle.title}</h1>
         <div>
           <p>{detailArticle.content}</p>
+        </div>
+        <div>
+          <DeleteButton id={detailArticle.id}></DeleteButton>
         </div>
     </div>
   )

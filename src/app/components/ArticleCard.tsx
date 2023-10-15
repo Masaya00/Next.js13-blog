@@ -27,7 +27,7 @@ const ArticleCard = ({article}: ArticleCardProps) => {
           <p className='my-3'>{article.createdAt}</p>
           <Link href={`articles/${article.id}`}>
             {/* 70文字以上だったら、それ以上は表示しない */}
-            {article.content.length > 70 ? article.content.substring(0, 70): article.content}
+            {article.content && article.content.length > 70 ? article.content.substring(0, 70): article.content}
           </Link>
           <Link href={`articles/${article.id}`} className='text-blue-700 mt-5'>続きを読む</Link>
         </div>

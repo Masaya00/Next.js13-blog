@@ -1,18 +1,6 @@
 {
   "posts": [
     {
-      "id": "next.js13-udemy",
-      "title": "Next.js13をUdemyで学ぶ",
-      "content": "Next.jsとサーバーサイドレンダリングをマスター。ウェブページの速度向上とSEO最適化の秘訣を解き明かそう。",
-      "createdAt": "2023/7/14"
-    },
-    {
-      "id": "next.js13-json-server-2",
-      "title": "Next.js13をUdemyで学ぶ",
-      "content": "Next.jsでモダンなウェブアプリケーションを構築しよう。Reactのパワーを最大限に活用し、高度なフロントエンド開発スキルを磨こう",
-      "createdAt": "2023/7/14"
-    },
-    {
       "id": "next.js13-nuxt-js3",
       "title": "Next.js13をUdemyで学ぶ",
       "content": "Next.jsとAPIの連携を学び、リアルタイムデータの取得やデータベースの操作を実践。フルスタック開発者への一歩を踏み出そう",
